@@ -31,7 +31,7 @@ app.post("/protectaccess", (req, res) => {
 
   console.log("user Input:", req.body);
 
-  let  checkLogin = "";
+  let checkLogin = "";
   const nameValid = validateName(name);
   const passwordValid = validatePassword(password);
   const idValid = validateID(idNumber);
